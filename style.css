@@ -1,9 +1,9 @@
- {
+ * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0; /* Tricky: override browser default */
+  margin: 0; 
   padding: 80px;
 
   font-family: "Roboto", sans-serif;
@@ -57,7 +57,7 @@ label {
   margin-bottom: 8px;
 }
 
-.search-section input {
+.search-bar input {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -69,7 +69,7 @@ label {
   width: 400px;
 }
 
-.search-section .search-button {
+.search-bar .search-button {
   font-size: 17px;
   width: 37px;
   height: auto;
@@ -127,13 +127,7 @@ label {
   vertical-align: bottom;
 }
 
-.star-icon{
-  height: auto; 
-  width: auto; 
-  max-width: 10px; 
-  max-height: 10px;
-  float: left;
-}
+
 .magnifying-glass-icon {
   height: 100%;
 }
